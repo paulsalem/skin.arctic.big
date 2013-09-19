@@ -1,3 +1,6 @@
+[B]0.3.9[/B]
+Moved ratings and resolution flags out to extras folder for user customisation
+
 [B]0.3.8[/B]
 Fixed Poster Panel Label
 Updates to RCB info screen (play game, trailer, selectable art)
@@ -13,6 +16,12 @@ Merge transifex
 Show info on livetv even with simplified seekbar
 Added DeleteTimer.xml and RecordPrefs.xml to skin wmc pvr backend
 Added "movie sets" undertitle label
+Fixed Fade theme artworkdownloader gui
+Artwork Downloader gui added rounded posters
+Added watched indicators to fonts black and regular
+Added watched indicators in medium and banner list under title
+Clean-up of includes
+View Header only tvshow info if infotags or clearlogo disabled
 
 [B]0.3.7[/B]
 Added infotags to OSD
