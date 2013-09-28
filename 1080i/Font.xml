@@ -521,6 +521,11 @@
             <filename>alaska_black.ttf</filename>
             <size>24</size>
         </font>
+		<font>
+            <name>rss</name>
+            <filename>alaska_light_nocaps.ttf</filename>
+            <size>33</size>
+        </font>
     </fontset>
      <fontset id="Big" unicode="true">
         <font>
@@ -1043,6 +1048,11 @@
             <name>Font-OSD-AudioCodec</name>
             <filename>alaska_black.ttf</filename>
             <size>24</size>
+        </font>
+		<font>
+		<name>rss</name>
+            <filename>alaska_regular.ttf</filename>
+            <size>33</size>
         </font>
     </fontset>
 </fonts>

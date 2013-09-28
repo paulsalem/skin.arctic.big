@@ -39,7 +39,7 @@
 					<control type="label">
 						<posx>190</posx>
 						<posy>74</posy>
-						<width>350</width>
+						<width>370</width>
 						<height>78</height>
 						<label>$INFO[System.Date(ddd)], $INFO[System.Date(dd MMM yyyy)]</label>
 						<font>Font-Alaska-S28-L</font>
