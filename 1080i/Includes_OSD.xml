@@ -229,10 +229,10 @@
 						<control type="label">
 							<description>Clock label</description>
 							<posx>0</posx>
-							<posy>13</posy>
+							<posy>14</posy>
 							<width>100</width>
 							<label>$INFO[System.Time(hh:mm)]</label>
-							<font>Font-Alaska-S28-L</font>
+							<font>time</font>
 							<textcolor>$VAR[osd.text.dark]</textcolor>
 							<shadowcolor>1a000000</shadowcolor>
 							<align>left</align>
@@ -265,10 +265,10 @@
 						<control type="label">
 							<description>Clock label</description>
 							<posx>0</posx>
-							<posy>13</posy>
+							<posy>14</posy>
 							<width>100</width>
 							<label>$INFO[Player.FinishTime(hh:mm)]</label>
-							<font>Font-Alaska-S28-L</font>
+							<font>time</font>
 							<shadowcolor>1a000000</shadowcolor>
 							<textcolor>$VAR[osd.text.dark]</textcolor>
 							<align>left</align>

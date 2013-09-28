@@ -526,6 +526,11 @@
             <filename>alaska_light_nocaps.ttf</filename>
             <size>33</size>
         </font>
+		<font>
+            <name>time</name>
+            <filename>alaska_regular.ttf</filename>
+            <size>28</size>
+        </font>
     </fontset>
      <fontset id="Big" unicode="true">
         <font>
@@ -1053,6 +1058,11 @@
 		<name>rss</name>
             <filename>alaska_regular.ttf</filename>
             <size>33</size>
+        </font>
+		<font>
+		<name>time</name>
+            <filename>alaska_regular.ttf</filename>
+            <size>37</size>
         </font>
     </fontset>
 </fonts>

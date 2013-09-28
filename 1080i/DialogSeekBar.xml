@@ -959,7 +959,7 @@
 					<visible>Player.Seeking | Player.Forwarding | Player.Rewinding</visible>
 				</control>
 				<control type="label">
-					<posx>631</posx>
+					<posx>610</posx>
 					<posy>123</posy>
 					<width>240</width>
 					<label>$INFO[Player.Time(hh:mm:ss)]</label>
@@ -970,7 +970,7 @@
 					<align>left</align>
 				</control>	
 				<control type="label">
-					<posx>632</posx>
+					<posx>615</posx>
 					<posy>123</posy>
 					<width>240</width>
 					<label>•</label>
