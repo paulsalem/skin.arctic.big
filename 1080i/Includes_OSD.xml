@@ -1,5 +1,20 @@
 <includes>
 
+<variable name="flag_Studio.player">
+		<value condition="VideoPlayer.Content(movies)">$INFO[VideoPlayer.studio,special://skin/extras/studioflags/,.png]</value>
+		<value condition="VideoPlayer.Content(episodes)">$INFO[VideoPlayer.studio,special://skin/extras/studioflags/,.png]</value>
+		<value condition="VideoPlayer.Content(musicvideos)">$INFO[VideoPlayer.studio,special://skin/extras/studioflags/,.png]</value>
+		<value condition="VideoPlayer.Content(livetv)">$INFO[VideoPlayer.Icon]</value>
+		<value condition="VideoPlayer.Content(files)">$INFO[VideoPlayer.VideoCodec,special://skin/extras/studioflags/,.png]</value>
+		<value condition="MusicPlayer.Content(files)">$INFO[MusicPlayer.Property(Album_Label),special://skin/extras/studioflags/,.png]</value>
+	</variable>
+	<variable name="PlayerArtwork">
+		<value condition="VideoPlayer.Content(episodes) + !IsEmpty(Player.Art(tvshow.clearart))">$INFO[Player.Art(tvshow.clearart)]</value>
+		<value condition="VideoPlayer.Content(episodes)">$INFO[Player.Art(tvshow.clearlogo)]</value>
+		<value condition="!IsEmpty(Player.Art(clearart))">$INFO[Player.Art(clearart)]</value>
+		<value>$INFO[Player.Art(clearlogo)]</value>
+	</variable>
+
 	<variable name="osd.text.normal">
 		<value condition="Skin.HasSetting(osd.darkpanel)">mod-infotags-alt2</value>
 		<value>mod-infotags</value>

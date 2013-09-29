@@ -855,6 +855,42 @@
 				<animation type="Hidden" reversible="false">
 					<effect type="fade" start="100" end="0" time="200" tween="sine" easing="out" />
 				</animation>
+				<!--studio logo-->
+				<control type ="image">
+					<posx>-590</posx>
+					<posy>-840</posy>
+					<width>400</width>
+					<height>151</height>
+					<texture fallback="empty">$VAR[flag_Studio.player]</texture>
+					<aspectratio align="center">keep</aspectratio>
+				</control>
+				<!--clearart-->
+				<control type ="image" id="1">
+					<posx>950</posx>
+					<posy>68</posy>
+					<width>268</width>
+					<height>150</height>
+					<texture background="true">$VAR[PlayerArtwork]</texture>
+					<aspectratio aligny="bottom">keep</aspectratio>
+				</control>
+				<control type="image">
+					<posx>950</posx>
+					<posy>68</posy>
+					<width>268</width>
+					<height>150</height>
+					<aspectratio align="center">keep</aspectratio>
+					<texture fallback="empty">$INFO[Player.FolderPath]../clearart.png</texture>
+				</control>
+				<control type="image">
+					<posx>950</posx>
+					<posy>68</posy>
+					<width>268</width>
+					<height>150</height>
+					<aspectratio align="center">keep</aspectratio>
+					<texture fallback="empty">$INFO[Player.FolderPath]clearart.png</texture>
+				</control>
+				
+				
 				<control type="progress">
 					<posx>-4</posx>
 					<posy>163</posy>
