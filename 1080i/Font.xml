@@ -532,7 +532,7 @@
             <size>37</size>
         </font>
     </fontset>
-	<fontset id="Default" unicode="true">
+	<fontset id="Artic" unicode="true">
         <font>
             <name>Font-Condensed-S20</name>
             <filename>alaska_light_nocaps.ttf</filename>
