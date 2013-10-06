@@ -531,6 +531,11 @@
             <filename>alaska_regular.ttf</filename>
             <size>37</size>
         </font>
+		<font>
+            <name>plot</name>
+            <filename>alaska_light_nocaps.ttf</filename>
+            <size>41</size>
+        </font>
     </fontset>
 	<fontset id="Artic" unicode="true">
         <font>
@@ -1063,6 +1068,11 @@
             <name>time</name>
             <filename>alaska_regular.ttf</filename>
             <size>28</size>
+        </font>
+		<font>
+            <name>plot</name>
+            <filename>alaska_light_nocaps.ttf</filename>
+            <size>34</size>
         </font>
     </fontset>
 </fonts>

@@ -558,7 +558,7 @@
 									<textcolor>$VAR[osd.text.dark]</textcolor>
 									<shadowcolor>18eeeeee</shadowcolor>
 									<autoscroll delay="13000" time="3000" repeat="13000" />
-									<font>Font-Alaska-S25-NC</font>
+									<font>plot</font>
 									<visible>!IsEmpty(Window(seekbar).Property(ExtendPlot))</visible>
 									<animation type="Visible" reversible="false">
 										<effect type="fade" start="0" end="100" time="300" tween="sine" easing="inout" delay="150" />
@@ -835,7 +835,7 @@
 				<textcolor>$VAR[osd.text.dark]</textcolor>
 				<shadowcolor>18eeeeee</shadowcolor>
 				<autoscroll delay="13000" time="3000" repeat="13000" />
-				<font>Font-Alaska-S25-NC</font>
+				<font>plot</font>
 				<visible>!IsEmpty(Window(seekbar).Property(ExtendPlot))</visible>
 				<animation type="Visible" reversible="false">
 					<effect type="fade" start="0" end="100" time="300" tween="sine" easing="inout" delay="150" />
