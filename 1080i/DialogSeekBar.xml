@@ -213,7 +213,7 @@
 						<overlaytexture>-</overlaytexture>
 					</control>
 					<control type="label">
-						<posx>1480</posx>
+						<posx>1440</posx>
 						<posy>249</posy>
 						<width>240</width>
 						<label>$INFO[Player.Time(hh:mm:ss)]</label>
@@ -224,7 +224,7 @@
 						<align>left</align>
 					</control>	
 					<control type="label">
-						<posx>1481</posx>
+						<posx>1461</posx>
 						<posy>249</posy>
 						<width>240</width>
 						<label>•</label>
