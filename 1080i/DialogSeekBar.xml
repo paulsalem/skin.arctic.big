@@ -1,4 +1,4 @@
-<window>
+ï»¿<window>
     <defaultcontrol>23</defaultcontrol>
     <visible>Window.IsActive(fullscreenvideo) + [[!IsEmpty(Window(videoosd).Property(ShowInfo)) + !IsEmpty(Window(seekbar).Property(ShowInfo)) + Window.IsActive(videoosd)] | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Window.IsActive(fullscreeninfo)] + !Window.IsVisible(sliderdialog) + ![Window.IsActive(script-XBMC-Subtitles-main.xml) | Window.IsActive(pvrguideinfo) | Window.IsActive(pvrosdchannels) | Window.IsActive(pvrosdguide) | Window.IsActive(yesnodialog) | Window.IsActive(okdialog) | Window.IsActive(progressdialog) | Window.IsActive(virtualkeyboard) | Window.IsActive(numericinput) | Window.IsActive(shutdownmenu) | Window.IsActive(osdvideosettings) | Window.IsActive(osdaudiosettings) | Window.IsActive(videobookmarks)]</visible>
     <!--<onload>SetProperty(ExtendPlot,1,seekbar)</onload>-->
@@ -167,7 +167,7 @@
 							<posx>440</posx>
 							<posy>244</posy>
 							<width>661</width>
-							<label>Â»</label>
+							<label>Ã‚Â»</label>
 							<font>Font-Alaska-S45-BL</font>
 							<textcolor>$VAR[osd.text.dark]</textcolor>
 							<scroll>false</scroll>
@@ -178,7 +178,7 @@
 							<posx>440</posx>
 							<posy>244</posy>
 							<width>661</width>
-							<label>Â«</label>
+							<label>Ã‚Â«</label>
 							<font>Font-Alaska-S45-BL</font>
 							<textcolor>$VAR[osd.text.dark]</textcolor>
 							<scroll>false</scroll>
@@ -489,7 +489,7 @@
 										<posx>1282</posx>
 										<posy>-4</posy>
 										<width>200</width>
-										<label>â—?â—?â—?â—?â—?</label>
+										<label>?????</label>
 										<font>Font-Alaska-S38-BL</font>
 										<textcolor>$VAR[osd.text.normal]</textcolor>
 										<shadowcolor>18eeeeee</shadowcolor>
@@ -699,7 +699,7 @@
 					<posx>875</posx>
 					<posy>-4</posy>
 					<width>200</width>
-					<label>â—?â—?â—?â—?â—?</label>
+					<label>?????</label>
 					<font>Font-Alaska-S38-BL</font>
 					<textcolor>$VAR[osd.text.normal]</textcolor>
 					<shadowcolor>18eeeeee</shadowcolor>
@@ -798,7 +798,7 @@
 					<posx>0</posx>
 					<posy>35</posy>
 					<width>780</width>
-					<label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre, â€¢ ,]$INFO[VideoPlayer.Rating,  â—? ,]</label>
+					<label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre, â€¢ ,]$INFO[VideoPlayer.Rating,  â€¢ ,]</label>
 					<font>Font-Alaska-S28-L</font>
 					<textcolor>$VAR[osd.text.normal]</textcolor>
 					<shadowcolor>18eeeeee</shadowcolor>
@@ -810,7 +810,7 @@
 					<posx>0</posx>
 					<posy>35</posy>
 					<width>780</width>
-					<label>$INFO[VideoPlayer.TVShowTitle,, â€¢ ]$INFO[VideoPlayer.Season,S,]$INFO[VideoPlayer.Episode,E,]$INFO[VideoPlayer.Premiered, â€¢ ,]$INFO[VideoPlayer.Rating,  â—? ,]</label>
+					<label>$INFO[VideoPlayer.TVShowTitle,, â€¢ ]$INFO[VideoPlayer.Season,S,]$INFO[VideoPlayer.Episode,E,]$INFO[VideoPlayer.Premiered, â€¢ ,]$INFO[VideoPlayer.Rating,  Ã¢â€”? ,]</label>
 					<font>Font-Alaska-S28-L</font>
 					<textcolor>$VAR[osd.text.normal]</textcolor>
 					<shadowcolor>18eeeeee</shadowcolor>
@@ -968,7 +968,7 @@
 					<posx>0</posx>
 					<posy>120</posy>
 					<width>661</width>
-					<label>Â»</label>
+					<label>Ã‚Â»</label>
 					<font>Font-Alaska-S45-BL</font>
 					<textcolor>$VAR[osd.text.dark]</textcolor>
 					<scroll>false</scroll>
@@ -979,7 +979,7 @@
 					<posx>0</posx>
 					<posy>120</posy>
 					<width>661</width>
-					<label>Â«</label>
+					<label>Ã‚Â«</label>
 					<font>Font-Alaska-S45-BL</font>
 					<textcolor>$VAR[osd.text.dark]</textcolor>
 					<scroll>false</scroll>
