@@ -414,10 +414,11 @@
 						<visible>Player.Rewinding</visible>
 					</control>	
 				</control>
+				<!--tabbed-->
 				<control type="progress">
 					<posx>475</posx>
 					<posy>253</posy>
-					<width>980</width>
+					<width>950</width>
 					<height>20</height>
 					<info>Player.ProgressCache</info>
 					<reveal>true</reveal>
@@ -431,7 +432,7 @@
 				<control type="progress">
 					<posx>475</posx>
 					<posy>253</posy>
-					<width>980</width>
+					<width>950</width>
 					<height>20</height>
 					<info>Player.Progress</info>
 					<reveal>true</reveal>
@@ -442,7 +443,7 @@
 					<overlaytexture>-</overlaytexture>
 				</control>
 				<control type="label">
-					<posx>1480</posx>
+					<posx>1452</posx>
 					<posy>249</posy>
 					<width>240</width>
 					<label>$INFO[Player.Time(hh:mm:ss)]</label>
@@ -453,7 +454,7 @@
 					<align>left</align>
 				</control>	
 				<control type="label">
-					<posx>1481</posx>
+					<posx>1463</posx>
 					<posy>249</posy>
 					<width>240</width>
 					<label>•</label>
@@ -714,8 +715,8 @@
 				<control type="label">
 					<posx>0</posx>
 					<posy>35</posy>
-					<width>780</width>
-					<label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre, • ,]$INFO[VideoPlayer.Rating,  • ,]</label>
+					<width>1070</width>
+					<label>$INFO[VideoPlayer.Artist,, • ]$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre, • ,]$INFO[VideoPlayer.Rating,   ● ,]</label>
 					<font>Font-Alaska-S28-L</font>
 					<textcolor>$VAR[osd.text.normal]</textcolor>
 					<shadowcolor>18eeeeee</shadowcolor>
@@ -834,8 +835,6 @@
 					<aspectratio align="center">keep</aspectratio>
 					<texture fallback="empty">$INFO[Player.FolderPath]clearart.png</texture>
 				</control>
-				
-				
 				<control type="progress">
 					<posx>-4</posx>
 					<posy>163</posy>
@@ -885,7 +884,7 @@
 					<posx>0</posx>
 					<posy>120</posy>
 					<width>661</width>
-					<label>Â»</label>
+					<label>»</label>
 					<font>Font-Alaska-S45-BL</font>
 					<textcolor>$VAR[osd.text.dark]</textcolor>
 					<scroll>false</scroll>
@@ -896,7 +895,7 @@
 					<posx>0</posx>
 					<posy>120</posy>
 					<width>661</width>
-					<label>Â«</label>
+					<label>«</label>
 					<font>Font-Alaska-S45-BL</font>
 					<textcolor>$VAR[osd.text.dark]</textcolor>
 					<scroll>false</scroll>
@@ -940,7 +939,7 @@
 					<visible>Player.Seeking | Player.Forwarding | Player.Rewinding</visible>
 				</control>
 				<control type="label">
-					<posx>831</posx>
+					<posx>800</posx>
 					<posy>123</posy>
 					<width>240</width>
 					<label>$INFO[Player.Time(hh:mm:ss)]</label>
@@ -951,7 +950,7 @@
 					<align>left</align>
 				</control>	
 				<control type="label">
-					<posx>832</posx>
+					<posx>812</posx>
 					<posy>123</posy>
 					<width>240</width>
 					<label>•</label>
