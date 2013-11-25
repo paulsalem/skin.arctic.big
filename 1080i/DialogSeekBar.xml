@@ -486,7 +486,7 @@
 					<control type="progress">
 						<posx>475</posx>
 						<posy>253</posy>
-						<width>980</width>
+						<width>950</width>
 						<height>20</height>
 						<info>Player.ProgressCache</info>
 						<reveal>true</reveal>
@@ -500,7 +500,7 @@
 					<control type="progress">
 						<posx>475</posx>
 						<posy>253</posy>
-						<width>980</width>
+						<width>950</width>
 						<height>20</height>
 						<info>Player.Progress</info>
 						<reveal>true</reveal>
@@ -511,7 +511,7 @@
 						<overlaytexture>-</overlaytexture>
 					</control>
 					<control type="label">
-						<posx>1480</posx>
+						<posx>1452</posx>
 						<posy>249</posy>
 						<width>240</width>
 						<label>$INFO[Player.Time(hh:mm:ss)]</label>
@@ -522,7 +522,7 @@
 						<align>left</align>
 					</control>	
 					<!--<control type="label">
-						<posx>1481</posx>
+						<posx>1463</posx>
 						<posy>249</posy>
 						<width>240</width>
 						<label>•</label>
@@ -725,8 +725,8 @@
 								<control type="label">
 									<posx>0</posx>
 									<posy>35</posy>
-									<width>980</width>
-									<label>$INFO[VideoPlayer.Artist,, â€¢ ,]$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre, â€¢ ,]$INFO[VideoPlayer.Rating,    â—� ,]</label>
+									<width>1070</width>
+									<label>$INFO[VideoPlayer.Artist,, • ,]$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre, • ,]$INFO[VideoPlayer.Rating,   • ,]</label>
 									<font>Font-Alaska-S28-L</font>
 									<textcolor>$VAR[osd.text.normal]</textcolor>
 									<shadowcolor>18eeeeee</shadowcolor>
@@ -738,7 +738,7 @@
 									<posx>0</posx>
 									<posy>35</posy>
 									<width>980</width>
-									<label>$INFO[VideoPlayer.TVShowTitle,, â€¢ ]$INFO[VideoPlayer.Season,S,]$INFO[VideoPlayer.Episode,E,]$INFO[VideoPlayer.Premiered, â€¢ ,]$INFO[VideoPlayer.Rating,    â—� ,]</label>
+									<label>$INFO[VideoPlayer.TVShowTitle,, • ]$INFO[VideoPlayer.Season,S,]$INFO[VideoPlayer.Episode,E,]$INFO[VideoPlayer.Premiered, • ,]$INFO[VideoPlayer.Rating,   • ,]</label>
 									<font>Font-Alaska-S28-L</font>
 									<textcolor>$VAR[osd.text.normal]</textcolor>
 									<shadowcolor>18eeeeee</shadowcolor>
@@ -750,7 +750,7 @@
 									<posx>0</posx>
 									<posy>35</posy>
 									<width>840</width>
-									<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.Genre, â€¢ ,]</label>
+									<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.Genre, • ,]</label>
 									<font>Font-Alaska-S28-L</font>
 									<textcolor>$VAR[osd.text.normal]</textcolor>
 									<shadowcolor>18eeeeee</shadowcolor>
@@ -968,7 +968,7 @@
 						<posy>846</posy>
 						<width>980</width>
 						<height>110</height>
-						<label>$INFO[VideoPlayer.Season,Season ,  ]$INFO[VideoPlayer.Episode,Episode ,[CR]]$INFO[VideoPlayer.Plot]</label>
+						<label>$INFO[VideoPlayer.Season,Season ,  ]$INFO[VideoPlayer.Episode,Episode ,[CR]]</label>
 						<align>left</align> 
 						<font>Font-Onscreen-Plot</font>
 						<textcolor>99ffffff</textcolor>
