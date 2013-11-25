@@ -479,7 +479,7 @@
     <!-- Next Aired info includes -->
     <include name="NextAiredInfo">
         <control type="group">
-            <visible>Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes)</visible>
+            <visible>[Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes)] + !SubString(Container.FolderPath,plugin://)</visible>
             <control type="group">
                 <posx>1745</posx>
                 <posy>26</posy>
