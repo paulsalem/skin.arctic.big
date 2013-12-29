@@ -536,6 +536,11 @@
             <filename>alaska_light_nocaps.ttf</filename>
             <size>41</size>
         </font>
+        <font>
+            <name>Font-AlbumCover-Title</name>
+            <filename>alaska_light_nocaps.ttf</filename>
+            <size>37</size>
+        </font>
     </fontset>
 	<fontset id="Artic" unicode="true">
         <font>
@@ -1091,6 +1096,7 @@
             <filename>alaska_black.ttf</filename>
             <size>24</size>
         </font>
+
 		<font>
             <name>rss</name>
             <filename>alaska_light_nocaps.ttf</filename>
@@ -1105,6 +1111,13 @@
             <name>plot</name>
             <filename>alaska_light_nocaps.ttf</filename>
             <size>34</size>
+
+            
+		<font>
+            <name>Font-AlbumCover-Title</name>
+            <filename>alaska_light_nocaps.ttf</filename>
+            <size>27</size>
+
         </font>
     </fontset>
 </fonts>
