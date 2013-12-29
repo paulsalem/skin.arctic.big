@@ -320,7 +320,7 @@
     
     <variable name="extrafanart.path">
     	<value condition="Skin.HasSetting(tvshows.use.extrafanart) + [Container.Content(tvshows) | Container.Content(seasons)]">$INFO[ListItem.Path,,extrafanart/]</value>
-    	<value condition="Skin.HasSetting(tvshows.use.extrafanart) + Container.Content(episodes)">$INFO[ListItem.Path,,../extrafanart/]</value>
+    	<value condition="Skin.HasSetting(tvshows.use.extrafanart) + Container.Content(episodes)">$INFO[ListItem.Path]extrafanart</value>
     	<value condition="Skin.HasSetting(music.use.extrafanart) + [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]">$INFO[Skin.String(cdartlocation)]$INFO[ListItem.Artist,,extrafanart/]</value>
     	<value condition="Skin.HasSetting(movies.use.extrafanart) + [Container.Content(movies)]">$INFO[ListItem.Path,,extrafanart/]</value>
     	<value>-</value>
