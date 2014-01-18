@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.salem" version="0.6.1" name="Arctic BIG" provider-name="paulsalem">
+<addon id="skin.arctic.salem" version="0.6.4" name="Arctic BIG" provider-name="paulsalem">
 	<requires>
 		<import addon="xbmc.gui" version="4.0.0" />
 		<import addon="service.skin.widgets" version="0.0.25" />
