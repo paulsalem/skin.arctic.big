@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.salem" version="0.6.6" name="Arctic BIG" provider-name="paulsalem">
+<addon id="skin.arctic.salem" version="0.7" name="Arctic BIG" provider-name="paulsalem">
 	<requires>
-		<import addon="xbmc.gui" version="4.0.0" />
+		<import addon="xbmc.gui" version="5.0.0"/>
 		<import addon="service.skin.widgets" version="0.0.25" />
 		<import addon="script.artwork.downloader" version="12.0.15" />
 		<import addon="script.tv.show.next.aired" version="5.0.7" />
