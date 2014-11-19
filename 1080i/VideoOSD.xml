@@ -70,15 +70,8 @@
 					<onright>1</onright>
 					<include>OSDOnUpDown</include>
 					<visible>!VideoPlayer.Content(LiveTV)</visible>
-					
-					<!-- FRODO -->
-					<onclick condition="[stringcompare(Skin.String(video.seekbar.type),small) | !Player.ShowInfo] + !IsEmpty(Skin.String(SubtitleScript_Path)) + !SubString(System.BuildVersion,13,Left)">XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-					<onclick condition="[stringcompare(Skin.String(video.seekbar.type),small) | !Player.ShowInfo] + IsEmpty(Skin.String(SubtitleScript_Path)) + !SubString(System.BuildVersion,13,Left)">Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
-					<onclick condition="[stringcompare(Skin.String(video.seekbar.type),small) | !Player.ShowInfo] + IsEmpty(Skin.String(SubtitleScript_Path)) + !SubString(System.BuildVersion,13,Left)">XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-					
-					<!-- GOTHAM -->
-					<onclick condition="[stringcompare(Skin.String(video.seekbar.type),small) | !Player.ShowInfo] + SubString(System.BuildVersion,13,Left)">ActivateWindow(SubtitleSearch)</onclick>
-					
+					<onclick>Dialog.Close(VideoOSD)</onclick>
+ +				<onclick>ActivateWindow(SubtitleSearch)</onclick>
 				</control>
 				<control type="togglebutton" id="7">
 					<posx>120</posx>
@@ -343,15 +336,8 @@
 					<onright>1</onright>
 					<include>OSDOnUpDown</include>
 					<visible>!VideoPlayer.Content(LiveTV)</visible>
-					
-					<!-- FRODO -->
-					<onclick condition="[stringcompare(Skin.String(video.seekbar.type),small) | !Player.ShowInfo] + !IsEmpty(Skin.String(SubtitleScript_Path)) + !SubString(System.BuildVersion,13,Left)">XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-					<onclick condition="[stringcompare(Skin.String(video.seekbar.type),small) | !Player.ShowInfo] + IsEmpty(Skin.String(SubtitleScript_Path)) + !SubString(System.BuildVersion,13,Left)">Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
-					<onclick condition="[stringcompare(Skin.String(video.seekbar.type),small) | !Player.ShowInfo] + IsEmpty(Skin.String(SubtitleScript_Path)) + !SubString(System.BuildVersion,13,Left)">XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-					
-					<!-- GOTHAM -->
-					<onclick condition="[stringcompare(Skin.String(video.seekbar.type),small) | !Player.ShowInfo] + SubString(System.BuildVersion,13,Left)">ActivateWindow(SubtitleSearch)</onclick>
-					
+					<onclick>Dialog.Close(VideoOSD)</onclick>
+ +				<onclick>ActivateWindow(SubtitleSearch)</onclick>
 				</control>
 				<control type="togglebutton" id="7">
 					<posx>120</posx>

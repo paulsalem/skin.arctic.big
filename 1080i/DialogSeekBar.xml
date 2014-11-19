@@ -25,7 +25,7 @@
 				 <visible>!Player.ShowInfo + !Window.IsActive(fullscreeninfo) + !Window.IsVisible(videoosd) </visible>
 						 <control type ="image" id="1">
 						   <posx>1310</posx>
-						   <posy>770</posy>
+						   <posy>775</posy>
 						   <width>368</width>
 						   <height>206</height>
 						   <texture background="true">$VAR[PlayerArtwork]</texture>
@@ -33,7 +33,7 @@
 						 </control>
 						 <control type="image">
 						   <posx>1310</posx>
-						   <posy>770</posy>
+						   <posy>775</posy>
 						  <width>368</width>
 						   <height>206</height>
 						   <aspectratio align="center">keep</aspectratio>
@@ -41,7 +41,7 @@
 						 </control>
 						 <control type="image">
 						   <posx>1310</posx>
-						   <posy>770</posy>
+						   <posy>775</posy>
 						   <width>368</width>
 						   <height>206</height>
 						   <aspectratio align="center">keep</aspectratio>
@@ -326,7 +326,7 @@
 							<textcolor>$VAR[osd.text.dark]</textcolor>
 							<shadowcolor>18eeeeee</shadowcolor>
 							<autoscroll delay="13000" time="3000" repeat="13000" />
-							<font>Font-Alaska-S25-NC</font>
+							<font>plot</font>
 							<animation type="Visible" reversible="false">
 								<effect type="fade" start="0" end="100" time="300" tween="sine" easing="inout" delay="150" />
 							</animation>
@@ -346,7 +346,7 @@
 							<textcolor>$VAR[osd.text.dark]</textcolor>
 							<shadowcolor>18eeeeee</shadowcolor>
 							<autoscroll delay="13000" time="3000" repeat="13000" />
-							<font>Font-Alaska-S25-NC</font>
+							<font>plot</font>
 							<animation type="Visible" reversible="false">
 								<effect type="fade" start="0" end="100" time="300" tween="sine" easing="inout" delay="150" />
 							</animation>
